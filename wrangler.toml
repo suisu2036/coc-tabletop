@@ -1,0 +1,7 @@
+name = "coc-tabletop"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+
+# 不需要本地 wrangler。CF 网页 Connect to Git 后会读这个文件部署。
+# 环境变量 (AUTH_TOKEN / GITHUB_TOKEN / GITHUB_REPO / DEFAULT_BRANCH)
+# 在 CF 网页 Settings -> Variables and Secrets 里填, 不写进仓库。
